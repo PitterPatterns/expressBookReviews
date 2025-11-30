@@ -8,6 +8,7 @@ const app = express();
 
 app.use(express.json());
 
+// Session object w/ user defined secret key
 app.use(
   "/customer",
   session({
